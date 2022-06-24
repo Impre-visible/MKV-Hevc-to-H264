@@ -1,7 +1,7 @@
 import os
 from videoprops import get_video_properties
 
-start_dir = "G:\\Projets\\Chocolate\\static\\Films"
+start_dir = "Your path to movies and ffmpeg"
 movies = os.listdir(start_dir)
 MoviesToConvert = []
 for movie in movies:
